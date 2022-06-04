@@ -6,37 +6,17 @@ body {
     min-height: 100vh;
 }
 
-h1 {
-    color: #f9faf9;
-    font-size: 24px
+/*to center content*/
+#inside {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
 }
-
-ul {
-    color: #e5e7eb;
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    gap: 25px;
-}
-
-.button {
-    background-color: #3882f6;
-    text-align: center;
-    font-weight: bold;
-    border: none;
-    color: #f9faf9;
-    padding: 10px 20px;
-    transition-duration: 0.2s;
-}
-
-.button:hover {
-    background-color: #f9faf9;
-    color: #3882f6;
-}
+/*for rounded corners*/
 .corners {
     border-radius: 10px;
 }
-
+/*start hero box with header*/
 .hero {
     background-color: #1f2937;
     color: #e5e7eb;
@@ -46,7 +26,7 @@ ul {
     margin-bottom: auto;
     width: 100%; 
 }
-
+/*start header*/
 .header {
     display: flex;
     justify-content: space-between;
@@ -58,12 +38,19 @@ ul {
     color: #e5e7eb;
 }
 
-#inside {
-    width: 960px;
-    margin-left: auto;
-    margin-right: auto;
+.header ul {
+    color: #e5e7eb;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
 }
 
+.header h1 {
+    color: #f9faf9;
+    font-size: 24px
+}
+/*start heroBox*/
 .hero h2 {
     color: #f9faf9;
     font-size: 48px;
@@ -82,7 +69,22 @@ ul {
 .heroImage img {
     width: 500px;
 }
+/*start button*/
+.button {
+    background-color: #3882f6;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    color: #f9faf9;
+    padding: 10px 20px;
+    transition-duration: 0.2s;
+}
 
+.button:hover {
+    background-color: #f9faf9;
+    color: #3882f6;
+}
+/*start info box*/
 .infoBox {
     display: flex;
     justify-content: space-around;
@@ -103,7 +105,7 @@ ul {
     justify-content: space-around;
     gap: 25px;
 }
-
+/*start items*/
 .item {
     text-align: center;
 }
@@ -113,7 +115,7 @@ ul {
     width: 250px;
     height: 250px;
 }
-
+/*start quote box*/
 .quote {
     background-color: #e5e7eb;
     display: flex;
@@ -134,7 +136,7 @@ ul {
     font-weight: bold;
     font-size: 16px;
 }
-
+/*start call to action box*/
 .call {
     background-color: #3882f6;
     color: #f9faf9;
@@ -162,7 +164,7 @@ ul {
     background-color: #f9faf9;
     color: #3882f6;
 }
-
+/*start footer*/
 .footer {
     background-color: #1f2937;
     color: #e5e7eb;
